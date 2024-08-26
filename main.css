@@ -3,7 +3,65 @@ body
     background-color:black;
 }
 
-h1, p, li
+h1, h2, h3, p, li
 {
     color:rgb(7, 176, 7);
 }
+
+a
+{
+  color:yellow;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+
+#navel{
+  display: block;
+  width: 150px;
+  background-color:rgb(14, 55, 29);
+  border: 5px;
+  border-color:rgb(25, 197, 25);
+  border-style: double;
+}
+
+#navel:hover {
+  background-color: #555;
+  color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
+  
+  caption {
+    padding: 10px;
+  }
